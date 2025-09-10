@@ -1,0 +1,188 @@
+$date
+	Tue Sep  9 22:25:58 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module four_adder_tb $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " carry $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % cin $end
+$var wire 1 ( in0 $end
+$var wire 1 ) in1 $end
+$var wire 1 * in2 $end
+$var wire 1 + in3 $end
+$var wire 4 , sum [3:0] $end
+$var wire 1 - carry2 $end
+$var wire 1 . carry1 $end
+$var wire 1 / carry0 $end
+$var wire 1 " carry $end
+$scope module ad0 $end
+$var wire 1 0 a $end
+$var wire 1 1 ab_xor $end
+$var wire 1 2 and1 $end
+$var wire 1 3 and2 $end
+$var wire 1 ( b $end
+$var wire 1 / carry $end
+$var wire 1 % cin $end
+$var wire 1 4 sum $end
+$upscope $end
+$scope module ad1 $end
+$var wire 1 5 a $end
+$var wire 1 6 ab_xor $end
+$var wire 1 7 and1 $end
+$var wire 1 8 and2 $end
+$var wire 1 ) b $end
+$var wire 1 . carry $end
+$var wire 1 / cin $end
+$var wire 1 9 sum $end
+$upscope $end
+$scope module ad2 $end
+$var wire 1 : a $end
+$var wire 1 ; ab_xor $end
+$var wire 1 < and1 $end
+$var wire 1 = and2 $end
+$var wire 1 * b $end
+$var wire 1 - carry $end
+$var wire 1 . cin $end
+$var wire 1 > sum $end
+$upscope $end
+$scope module ad3 $end
+$var wire 1 ? a $end
+$var wire 1 @ ab_xor $end
+$var wire 1 A and1 $end
+$var wire 1 B and2 $end
+$var wire 1 + b $end
+$var wire 1 " carry $end
+$var wire 1 - cin $end
+$var wire 1 C sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0C
+1B
+0A
+1@
+0?
+0>
+1=
+0<
+1;
+0:
+09
+18
+07
+16
+15
+04
+13
+02
+11
+00
+1/
+1.
+1-
+b0 ,
+1+
+1*
+0)
+1(
+b10 '
+b10 &
+1%
+b10 $
+b10 #
+1"
+b0 !
+$end
+#10000
+0-
+1>
+0=
+0"
+0.
+0C
+0B
+19
+08
+0@
+0/
+0(
+1)
+0*
+0+
+b111 !
+b111 ,
+14
+03
+10
+05
+1:
+0%
+b101 #
+b101 &
+#20000
+1"
+1B
+1-
+0>
+1=
+1.
+0C
+09
+18
+1@
+1/
+1*
+1+
+b0 !
+b0 ,
+04
+13
+0:
+1%
+b1 $
+b1 '
+b1 #
+b1 &
+#30000
+19
+0-
+0"
+0.
+0>
+0=
+0C
+0B
+08
+01
+12
+06
+0;
+0@
+1/
+1(
+0)
+0*
+0+
+b10 !
+b10 ,
+04
+03
+0%
+#40000
