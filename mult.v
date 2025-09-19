@@ -21,7 +21,7 @@ reg[5:0] a_copy,b_copy;
 
 always @ (posedge clk )
 begin
-		if (init && state == star)
+		if (init)
 		
 			state <= star;
 		else
@@ -70,7 +70,7 @@ begin
       finish: begin 
       done <= 1;
       result <= pp;
-      next_state = star;
+      
       
       end
 
