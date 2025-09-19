@@ -40,7 +40,7 @@ initial begin
     init = 1;
     #10;
     init = 0;
-    #10;
+    #200;
     $finish;
 end
 
